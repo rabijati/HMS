@@ -15,15 +15,20 @@ class HomeController extends Controller
         {
             if(Auth::user()->usertype=='0')
             {
-                return view('admin.home');
+                return view('user.home');
             }
             else
             { 
-                return view('user.home');
+                return view('admin.home');
             }
         }
         else{
             return redirect()->back();
         }
+    }
+
+    public function index()
+    {
+        return view('user.home');
     }
 }

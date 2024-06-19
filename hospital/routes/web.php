@@ -15,11 +15,10 @@ use App\Http\ControllerS\HomeController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('/home',[HomeController::Class, 'redirect'])->name('home');
+Route::get('/',[HomeController::Class, 'index']);
+
+Route::get('/home',[HomeController::Class, 'redirect']);
 
 Route::middleware([
     'auth:sanctum',
