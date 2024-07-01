@@ -48,7 +48,7 @@
 
             <div class="alert alert-success">
                 <button type="button" class="close" data-dismiss="alert">
-                    x
+                    
                 </button>
 
                 {{session()->get('message')}}
@@ -76,7 +76,7 @@
                             <option value="skin">Skin</option>
                             <option value="heart">Heart</option>
                             <option value="ent">ENT</option>
-                            <option value="neurology">Neurolog</option>
+                            <option value="neurology">Neurology</option>
                         </select>
                     </div>
 

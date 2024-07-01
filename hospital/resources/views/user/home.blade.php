@@ -95,7 +95,7 @@
                         </x-app-layout>
 
 
-                        <h1> user is logged in! </h1>
+                        <h1>  </h1>
 
                         @else
 
